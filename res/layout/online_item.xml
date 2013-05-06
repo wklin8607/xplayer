@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="72dp"
+    android:background="#0fbfbfbf"
+    android:layout_marginTop="8dp"
+    >
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#0fffffff"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            >
+            <FrameLayout 
+                android:id="@+id/frameLayout"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:gravity="left"
+                >
+                <ImageView 
+                    android:id="@+id/online_Image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/video_file"
+                    />
+            </FrameLayout>
+            <LinearLayout 
+                android:layout_toRightOf="@+id/frameLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+			<TextView
+			    android:id="@+id/online_Name"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:singleLine="true"
+			    android:textSize="14sp"
+			    
+			    />
+			<TextView 
+			    android:id="@+id/online_url"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:singleLine="true"
+			    android:textSize="12sp"
+			    />
+			</LinearLayout>
+         </RelativeLayout>
+    
+</RelativeLayout>

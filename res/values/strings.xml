@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">畅播</string>
+    <string name="title_section4">流媒体</string>
+    <string name="title_section3">目录</string>
+    <string name="title_section2">音乐</string>
+    <string name="title_section1">电影</string>
+    <string name="menu_settings">设置</string>
+    <string name="name">名称</string>
+    <string name="url">地址</string>
+    <string name="action_bar_search">搜索</string>
+    <string name="Description">null</string>
+</resources>
